@@ -1,0 +1,14 @@
+# Developed on the Kaggle Python image (GPU). Versions below are minimums; pin to your own environment if needed.
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+nibabel
+torch
+torchvision
+SimpleITK
+PyWavelets
+pykwalify
+six
+# pyradiomics==3.0.1 is installed from source by scripts/04a_install_pyradiomics.py
