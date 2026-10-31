@@ -1,0 +1,37 @@
+a,b,p,holm36
+"age only","age+sex",0.4710216757613256,1
+"age only","age+sex+volume+mean intensities (5 clinical)",0.9822506691520196,1
+"age only","204 radiomics only",0.1429975239300348,1
+"age only","all 209 structured (L2 logistic)",0.00005660732018896828,0.0013585756845352387
+"age only","frozen embedding (mean-pooled), L2 logistic",4.468156948059829e-7,0.000012957655149373505
+"age only","frozen embedding (mean-pooled) + age",0.0238734732339823,0.38723665144909303
+"age only","fusion (iv)",0.0806736380622756,0.9680836567473071
+"age only","structured-only MLP (v)",0.8645396461122538,1
+"age+sex","age+sex+volume+mean intensities (5 clinical)",0.8552403776239322,1
+"age+sex","204 radiomics only",0.1557066142069471,1
+"age+sex","all 209 structured (L2 logistic)",0.00007250217581090485,0.0016247126118486344
+"age+sex","frozen embedding (mean-pooled), L2 logistic",3.370901565710423e-7,0.000010112704697131268
+"age+sex","frozen embedding (mean-pooled) + age",0.0205462759686795,0.369832967436231
+"age+sex","fusion (iv)",0.0712570291060959,0.9263413783792467
+"age+sex","structured-only MLP (v)",0.9040959502194974,1
+"age+sex+volume+mean intensities (5 clinical)","204 radiomics only",0.146392241239382,1
+"age+sex+volume+mean intensities (5 clinical)","all 209 structured (L2 logistic)",0.00007063967877602759,0.0016247126118486344
+"age+sex+volume+mean intensities (5 clinical)","frozen embedding (mean-pooled), L2 logistic",4.502311906381829e-7,0.000012957655149373505
+"age+sex+volume+mean intensities (5 clinical)","frozen embedding (mean-pooled) + age",0.022778626555829,0.38723665144909303
+"age+sex+volume+mean intensities (5 clinical)","fusion (iv)",0.0827327267277117,0.9680836567473071
+"age+sex+volume+mean intensities (5 clinical)","structured-only MLP (v)",0.8664979058866414,1
+"204 radiomics only","all 209 structured (L2 logistic)",0.00002555944454929152,0.0006645455582815795
+"204 radiomics only","frozen embedding (mean-pooled), L2 logistic",6.223810241081373e-10,2.1160954819676667e-8
+"204 radiomics only","frozen embedding (mean-pooled) + age",0.0005479798369524,0.010959596739048002
+"204 radiomics only","fusion (iv)",0.000032807705435621585,0.0008201926358905396
+"204 radiomics only","structured-only MLP (v)",0.0371658505451418,0.5203219076319852
+"all 209 structured (L2 logistic)","frozen embedding (mean-pooled), L2 logistic",3.0406986493414125e-15,1.0946515137629085e-13
+"all 209 structured (L2 logistic)","frozen embedding (mean-pooled) + age",3.2571353975879805e-8,0.0000010422833272281538
+"all 209 structured (L2 logistic)","fusion (iv)",2.6775289007387564e-10,9.371351152585648e-9
+"all 209 structured (L2 logistic)","structured-only MLP (v)",0.0000010225923861188947,0.00002760999442521016
+"frozen embedding (mean-pooled), L2 logistic","frozen embedding (mean-pooled) + age",6.527340799230454e-9,2.1540224637460498e-7
+"frozen embedding (mean-pooled), L2 logistic","fusion (iv)",0.0001867621829275,0.0039220058414775
+"frozen embedding (mean-pooled), L2 logistic","structured-only MLP (v)",3.014029802886422e-7,0.000009343492388947908
+"frozen embedding (mean-pooled) + age","fusion (iv)",0.6748646813781507,1
+"frozen embedding (mean-pooled) + age","structured-only MLP (v)",0.0252655837028918,0.38723665144909303
+"fusion (iv)","structured-only MLP (v)",0.0089698058852565,0.17042631181987347
